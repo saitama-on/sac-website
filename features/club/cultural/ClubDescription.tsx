@@ -30,12 +30,11 @@ function ClubDescription({ children, img, insta }: Props) {
           }}
         >
           <Image
-            style={{
-              borderRadius: "24px",
-            }}
             src={img}
-            alt=""
-            objectFit={"contain"}
+            alt="Club Logo"
+            width={360}
+            height={360}
+            style={{ borderRadius: "50%" }}
           />
         </Box>
         <Box
