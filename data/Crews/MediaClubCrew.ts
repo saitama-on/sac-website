@@ -7,228 +7,255 @@ interface CrewProps {
 }
 
 // import crew
-import Male from "../../assets/team_24-25/Male-member.jpeg"
-import Female from "../../assets/team_24-25/Female-member.jpeg"
-import Yash from "../../assets/team_24-25/yash_1.jpg";
-import Priyadarshi from "../../assets/team_24-25/Priyadarshi_img.jpg"
-import Anshul_Lakra from "../../assets/team_24-25/IMG_4342~3 - Anshul Pratap Lakra.jpg"
-import Parthsarthi_Dutt from "../../assets/team_24-25/IMG-20240526-WA0018~2 - Parthsarthi Dutt.jpg"
-import Jaya_Deep from "../../assets/team_24-25/IMG20240218145308 - Kundrapu Jaya Deep.jpg"
-import Tejas_Keshwani from "../../assets/team_24-25/Screenshot_20240524_131623_Gallery - Tejas Keshwani.jpg"
-import Shubhang_Nande from "../../assets/team_24-25/Screenshot_2024-05-25-14-53-47-550_com.whatsapp-edit - Shubhang Nande.jpg"
-import Virat_Patel from "../../assets/team_24-25/Picsart_23-08-29_02-46-57-153 - Virat Patel.jpg"
-import Kaushal_Ranjan from "../../assets/team_24-25/Kaushal Ranjan (7) - Kaushal Ranjan.png"
-import Kritie_Omar from "../../assets/team_24-25/IMG-20240529-WA0012 - Kritie Omar(1).jpg"
-import Meenal_Patle from "../../assets/team_24-25/IMG-20240524-WA0038 - Meenal Patle.jpg"
-import Karmendra_Dev from "../../assets/team_24-25/IMG-20240412-WA0148-01-01-01 - Karmendra Dev Netam.jpeg"
-import Anushka_Ekka from "../../assets/team_24-25/IMG_20240410_130215 - Anushka Ekka(1).jpg"
-import Vaishnavi_Shrivastava from "../../assets/team_24-25/1000088291-01 - Vaishnavi Shrivastava.jpeg"
-import Jayaprakash_Sahu from "../../assets/team_24-25/IMG_20231004_223523 - Jaiprakash Sahu.jpg"
-import Shrawan_Kumar from "../../assets/team_24-25/1705775302364f - Shrawan Kumar Bhagat.jpg"
-import Tanisha_Jain from "../../assets/team_24-25/IMG20240322120646 - Tanisha Jain.jpg"
-import Shashank_Mishra from "../../assets/team_24-25/ppf-Shashank-Mishra.jpeg"
-import Navneeth from "../../assets/team_24-25/830c251d-5463-4969-ac80-75e644f0394d - Kundrapu Navneeth.jpeg"
-import Ashritha from "../../assets/team_24-25/ash_20240527_073222_0000 - Ashritha Gundu.jpg"
-import Hritik_Routia from "../../assets/team_24-25/20240428_183502 - Hritik Kumar Routia.jpg"
-import Vriddhi_Jain from "../../assets/team_24-25/IMG_20231231_231251_225 - Vriddhi Jain.jpg"
-import Parth_Patel from "../../assets/team_24-25/IMG_20240526_185423 - Parth Patel.jpg"
-import Adya_Pandey from "../../assets/team_24-25/IMG_20240526_135155 - Adya Pandey.jpg"
-import Alisha_Tripathi from "../../assets/team_24-25/IMG-20240523-WA0005 - Alisha Tripathi.jpg"
-import Mohit_Sharma from "../../assets/team_24-25/2024-05-20-16-37-50-202 - Sharma Mohit.jpg"
-import Anish_Kumar from "../../assets/team_24-25/20240316_184446 - Anish Kumar.jpg"
-import Kushagra_Verma from "../../assets/team_24-25/WhatsApp Image 2024-06-19 - Kushagra Verma.jpg"
-import R_Sai_Shivani from "../../assets/team_24-25/IMG_0614-R-Sai-Shivani.jpeg"
-import Anshumaan from "../../assets/team_24-25/IMG_0369-Anshumaan-Karna.jpeg"
-import Adnan from "../../assets/team_24-25/IMG_4711-Sayyed-Raahim-Adnan_1_.jpeg"
+//2025-2026
+//website
+import Ayush from "../../assets/team_25-26/web/Ayush Singh.jpg"
+import Atharv from "../../assets/team_25-26/web/Bedekar Atharva Suresh.jpg"
+import Malay from "../../assets/team_25-26/web/Chaudhary Malay Rajeshkumar.jpg"
+import Fahmin from "../../assets/team_25-26/web/Fahmin Mohammed K K.jpeg"
+import Manas from "../../assets/team_25-26/web/Manas Choudhary.jpg"
+
+import Ashank from "../../assets/team_25-26/shutter/Ashank Mishra.jpg"
+import FahminMohammed from "../../assets/team_25-26/shutter/Fahmin Mohammed.jpg"
+import Gonthina from "../../assets/team_25-26/shutter/Gonthina Ravi Kiran.jpg"
+import linesh from "../../assets/team_25-26/shutter/Iinesh Jain.jpg"
+import karan from "../../assets/team_25-26/shutter/Karan Ramdas Jadhav.jpg"
+import karmendra from "../../assets/team_25-26/shutter/Karmendra Dev Netam.jpg"
+import kaushal from "../../assets/team_25-26/shutter/Kaushal Singh Sidar.jpg"
+import Nityam from "../../assets/team_25-26/shutter/Nityam Banjare.jpg"
+import Prachi from "../../assets/team_25-26/shutter/Prachi Priyadarshini.jpg"
+import Prakriti from "../../assets/team_25-26/shutter/Prakriti Thakur.jpg"
+import Rahul from "../../assets/team_25-26/shutter/Rahul Barma.png"
+import Shikhar from "../../assets/team_25-26/shutter/Shikhar Varshney.jpg"
+import Shivam from "../../assets/team_25-26/shutter/Shivam Tiwari.jpg"
+import Shreyansh from "../../assets/team_25-26/shutter/Shreyansh Samaddar.jpg"
+import Shruti from "../../assets/team_25-26/shutter/Shruti Dhruw.jpg"
+import Sonali from "../../assets/team_25-26/shutter/Sonali Minj.jpg"
+import Tirumalaraju from "../../assets/team_25-26/shutter/Tirumalaraju Manish Varma.jpg"
+
+
+import AshankMishra from "../../assets/team_25-26/PR & Social Media/Ashank Mishra.jpg"
+import lineshJain from "../../assets/team_25-26/PR & Social Media/Iinesh Jain.jpg"
+import Karan from "../../assets/team_25-26/PR & Social Media/Karan Ramdas Jadhav.jpg"
+import ShikharVarshney from "../../assets/team_25-26/PR & Social Media/Shikhar Varshney.jpg"
+import ShrutiDhruw from "../../assets/team_25-26/PR & Social Media/Shruti Dhruw.jpg"
+import varun from "../../assets/team_25-26/PR & Social Media/Varun Bhargava.jpg"
+
+
+import Abhay from "../../assets/team_25-26/Design & Doc/Abhay Yadav.jpg"
+import Akshita from "../../assets/team_25-26/Design & Doc/Akshita Sondhi.jpg"
+import Arpita from "../../assets/team_25-26/Design & Doc/Arpita Dash.jpg"
+import Ekansh from "../../assets/team_25-26/Design & Doc/Ekansh Arohi.jpg"
+import KaranRamdas from "../../assets/team_25-26/Design & Doc/Karan Ramdas Jadhav.jpg"
+import kaushalSingh from "../../assets/team_25-26/Design & Doc/Kaushal Singh Sidar.jpg"
+import PrachiPriyadarshini from "../../assets/team_25-26/Design & Doc/Prachi Priyadarshini.jpg"
+import Rudra from "../../assets/team_25-26/Design & Doc/Rudraprakash Dahariya.jpg"
+import Sankalp from "../../assets/team_25-26/Design & Doc/Sankalp Gupta.jpg"
+import ShreyashRai from "../../assets/team_25-26/Design & Doc/Shreyash Rai.jpg"
+
+
+
+
+
 
 export const website: CrewProps[] = [
     {
-        img: Priyadarshi,
-        name: "Priyadarshi Satyakam",
+        img: Manas,
+        name: "Manas Choudhary",
         post: "Head",
     },
     {
-        img: Yash,
-        name: "Yash Joshi",
+        img: Fahmin,
+        name: "Fahmin Mohammed K K",
         post: "Vice Head",
     },
     {
-        img: Kushagra_Verma,
-        name: "Kushagra Verma",
-        post: "Core Member",
+        img: Ayush,
+        name: "Ayush Singh",
+        post: "DevOps",
     },
     {
-        img: Alisha_Tripathi,
-        name: "Alisha Tripathi",
-        post: "Core Member",
+        img: Atharv,
+        name: "Bedekar Atharva Suresh",
+        post: "App Dev",
     },
     {
-        img: Mohit_Sharma,
-        name: "Mohit Sharma",
-        post: "Core Member"
-    },
-    {
-        img: Anish_Kumar,
-        name: "Anish Kumar",
-        post: "Core Member"
-    },
-    {
-        img: Kaushal_Ranjan,
-        name: "Kaushal Ranjan",
-        post: "UI/UX Designer"
+        img: Malay,
+        name: "Chaudhary Malay Rajeshkumar",
+        post: "Game Dev"
     },
 ];
-
 export const shutterbug: CrewProps[] = [
     {
-        img: R_Sai_Shivani,
-        name: "R.Sai Shivani",
+        img: karmendra,
+        name: "Karmendra Dev Netam",
         post: "Head",
     },
     {
-        img: Anshul_Lakra,
-        name: "Anshul Pratap Lakra",
+        img: kaushal,
+        name: "Kaushal Singh Sidar",
         post: "Vice Head",
     },
     {
-        img: Parthsarthi_Dutt,
-        name: "Parthsarthi Dutt",
-        post: "Videographer",
+        img: Ashank,
+        name: "Ashank Mishra",
+        post: "Core Member",
     },
     {
-        img: Jaya_Deep,
-        name: "K Jaya Deep",
-        post: "Videographer",
+        img: FahminMohammed,
+        name: "Fahmin Mohammed",
+        post: "Core Member",
     },
     {
-        img: Anushka_Ekka,
-        name: "Anushka Ekka",
-        post: "Content & Mails",
+        img: Gonthina,
+        name: "Gonthina Ravi Kiran",
+        post: "Core Member",
     },
     {
-        img: Virat_Patel,
-        name: "Virat Patel",
-        post: "Operations",
+        img: linesh,
+        name: "Iinesh Jain",
+        post: "Core Member",
     },
     {
-        img: Shubhang_Nande,
-        name: "Shubhang Nande",
-        post: "Operations",
+        img: karan,
+        name: "Karan Ramdas Jadhav",
+        post: "Core Member",
     },
     {
-        img: Anshumaan,
-        name: "Anshumaan Karna",
-        post: "Social Media",
+        img: Nityam,
+        name: "Nityam Banjare",
+        post: "Core Member",
     },
     {
-        img: Kritie_Omar,
-        name: "Kritie Omar",
-        post: "Social Media",
+        img: Prachi,
+        name: "Prachi Priyadarshini",
+        post: "Core Member",
     },
     {
-        img: Kaushal_Ranjan,
-        name: "Kaushal Ranjan",
-        post: "Graphic Designer",
+        img: Prakriti,
+        name: "Prakriti Thakur",
+        post: "Core Member",
     },
     {
-        img: Karmendra_Dev,
-        name: "Karmendra Dev Netam",
-        post: "Photographer",
+        img: Rahul,
+        name: "Rahul Barma",
+        post: "Core Member",
     },
     {
-        img: Tejas_Keshwani,
-        name: "Tejas Keshwani",
-        post: "Photographer",
+        img: Shikhar,
+        name: "Shikhar Varshney",
+        post: "Core Member",
     },
     {
-        img: Meenal_Patle,
-        name: "Meenal Patle",
-        post: "Photographer",
+        img: Shivam,
+        name: "Shivam Tiwari",
+        post: "Core Member",
     },
     {
-        img: Vaishnavi_Shrivastava,
-        name: "Vaishnavi Shrivastava",
-        post: "Photographer",
+        img: Shreyansh,
+        name: "Shreyansh Samaddar",
+        post: "Core Member",
     },
     {
-        img: Jayaprakash_Sahu,
-        name: "Jaiprakash Sahu",
-        post: "Photographer",
+        img: Shruti,
+        name: "Shruti Dhruw",
+        post: "Core Member",
     },
     {
-        img: Shrawan_Kumar,
-        name: "Shrawan Kumar Bhagat",
-        post: "Photographer",
+        img: Sonali,
+        name: "Sonali Minj",
+        post: "Core Member",
+    },
+    {
+        img: Tirumalaraju,
+        name: "Tirumalaraju Manish Varma",
+        post: "Core Member",
     },
 ];
 // Changing name
 export const pr: CrewProps[] = [
     {
-        img: Virat_Patel,
-        name: "Virat Patel",
-        post: "Head(PR)",
+        img: lineshJain,
+        name: "Iinesh Jain",
+        post: "Head",
     },
     {
-        img: Male,
-        name: "Pulli Uttam Reddy",
-        post: "Head(Social Media)",
-    },
-    {
-        img: Adnan,
-        name: "Sayyed Raahim Adnan Ali",
+        img: ShrutiDhruw,
+        name: "Shruti Dhruw",
         post: "Vice Head",
     },
     {
-        img: Tanisha_Jain,
-        name: "Tanisha Jain",
+        img: varun,
+        name: "Varun Bhargava",
         post: "Core member",
     },
     {
-        img: Shashank_Mishra,
-        name: "Shashank Mishra",
+        img: AshankMishra,
+        name: "Ashank Mishra",
         post: "Core member",
     },
     {
-        img: Navneeth,
-        name: "Navneeth",
+        img: Karan,
+        name: "Karan Ramdas Jadhav",
         post: "Core member",
     },
     {
-        img: Ashritha,
-        name: "Ashritha",
+        img: ShikharVarshney,
+        name: "Shikhar Varshney",
         post: "Core member",
     },
+   
 ];
 // Changing name
 export const design: CrewProps[] = [
     {
-        img: Kaushal_Ranjan,
-        name: "Kaushal Ranjan",
-        post: "Head(Design)",
+        img: ShreyashRai,
+        name: "Shreyash Rai",
+        post: "Design Head",
     },
     {
-        img: Hritik_Routia,
-        name: "Hritik Routia",
-        post: "Head(Documentation)",
+        img: Rudra,
+        name: "Rudraprakash Dahariya",
+        post: "Design Vice Head",
     },
     {
-        img: Vriddhi_Jain,
-        name: "Vriddhi Jain",
+        img: Akshita,
+        name: "Akshita Sondhi",
+        post: "Doc Head",
+    },
+    {
+        img: Arpita,
+        name: "Arpita Dash",
+        post: "Design vice Head",
+    },
+    {
+        img: Sankalp,
+        name: "Sankalp Gupta",
         post: "Core Member",
     },
     {
-        img: Parth_Patel,
-        name: "Parth Patel",
+        img: Ekansh,
+        name: "Ekansh Arohi",
         post: "Core Member",
     },
     {
-        img: Adya_Pandey,
-        name: "Adya Pandey",
+        img: KaranRamdas,
+        name: "Karan Ramdas Jadhav",
         post: "Core Member",
     },
     {
-        img: Anushka_Ekka,
-        name: "Anushka Ekka",
+        img: kaushalSingh,
+        name: "Kaushal Singh Sidar",
+        post: "Core Member",
+    },
+    {
+        img: PrachiPriyadarshini,
+        name: "Prachi Priyadarshini",
+        post: "Core Member",
+    },
+    {
+        img: Abhay,
+        name: "Abhay Yadav",
         post: "Core Member",
     },
 ];
