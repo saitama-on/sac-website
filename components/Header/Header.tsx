@@ -14,7 +14,7 @@ const StyledHeader = styled(Stack)({
 
 type Props = {};
 
-const Header = React.forwardRef(({ }: Props, ref) => {
+const Header = React.forwardRef<HTMLDivElement, Props>(({ }: Props, ref) => {
   return (
     <StyledHeader color="white" px="20px">
       <Container maxWidth="xl" disableGutters>
