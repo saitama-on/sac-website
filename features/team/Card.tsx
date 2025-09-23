@@ -23,7 +23,7 @@ const Card = ({ Name, Post, img, linkedin, call, mail }: Props) => {
         <Box
           sx={{
             width: "262px",
-            height: "309px",
+            height: "309px"
           }}
         >
           <Image
@@ -35,6 +35,7 @@ const Card = ({ Name, Post, img, linkedin, call, mail }: Props) => {
             objectPosition={"center"}
             style={{
               borderRadius: "12px",
+              height: "309px"
             }}
           />
         </Box>

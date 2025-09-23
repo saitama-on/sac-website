@@ -12,13 +12,7 @@ import newsData from "../../data/NewsData";
 import { Grid } from "@mui/material";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
+
 // import { CardSim } from "lucide-react";
 
 interface NewsProps {
@@ -109,7 +103,7 @@ const News: NextPage = () => {
 
   const [curr , setCurr] = useState(0);
   const len_of_news = newsData.length;
-  console.log(newsData[curr])
+
 
   const handlePrev = () =>{
     setCurr((curr)=> (curr-1+len_of_news)%len_of_news)
