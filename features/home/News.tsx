@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
-import { Button } from "@/components/ui/button";
+import  Button  from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import Image, { StaticImageData } from "next/image";
@@ -155,7 +155,7 @@ const News: NextPage = () => {
                     borderRadius: 2,   
                   }}
                   component="img" src=
-          {newsData[curr].img.src}>
+          {newsData[curr].img?.src || ""}>
             </Box>
           </Box>
           <Box sx={{width:"50%" , padding:"10px"}}>
@@ -163,7 +163,7 @@ const News: NextPage = () => {
             <Box sx={{minHeight:"20%" , padding:2 , fontSize:"1.1rem" , display:"flex"}}>
               <Box sx={{minWidth:"70%"}}></Box>
               <Box sx={{display:"flex" , alignItems:"center" }}>
-                  <Box component="img" src={newsData[curr].authImg.src} sx={{height:40 , width:40, borderRadius:10 , marginRight:1 }}></Box>
+                  <Box component="img" src={newsData[curr].authImg?.src || ""} sx={{height:40 , width:40, borderRadius:10 , marginRight:1 }}></Box>
                   <Box>{newsData[curr].authName}</Box>
               </Box>
             </Box>
