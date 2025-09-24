@@ -25,7 +25,7 @@ function NavBar({ }: Props) {
   const { inView: headInView } = useContext(BrandInViewContext);
   return (
     <StyledHeader justifyContent="center">
-      <Container maxWidth="xl">
+      <Container>
         <Stack
           direction="row"
           alignItems="center"
