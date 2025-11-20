@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Container } from "@mui/material";
+import { Container, Box } from "@mui/material";
 import { Stack } from "@mui/system";
 import React, { useContext } from "react";
 import { BrandInViewContext } from "../../contexts/HeaderContext";
@@ -26,24 +26,24 @@ function NavBar({ }: Props) {
   return (
     <StyledHeader justifyContent="center">
       <Container maxWidth="xl">
-        <Stack
-          direction="row"
-          alignItems="center"
-          justifyContent="space-between"
-        >
-          <SacBranding
-            width={40}
-            height={40}
-            sx={{
-              opacity: headInView ? 0 : 1,
-              height: headInView ? "30px" : "40px",
-              transition: "ease-in-out",
-              transitionProperty: "opacity height",
-              transitionDuration: "200ms",
-            }}
-            url={sacLogo}
-          />
-          <NavRight wideSpacing={headInView} />
+        <Stack direction="row" alignItems="center" justifyContent="center" sx={{ width: '100%' }}>
+          <Box sx={{ flex: 1 }} />
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+            <SacBranding
+              width={40}
+              height={40}
+              sx={{
+                opacity: headInView ? 0 : 1,
+                height: headInView ? "30px" : "40px",
+                transition: "ease-in-out",
+                transitionProperty: "opacity height",
+                transitionDuration: "200ms",
+              }}
+              url={sacLogo}
+            />
+            <NavRight wideSpacing={headInView} />
+          </Box>
+          <Box sx={{ flex: 1 }} />
         </Stack>
       </Container>
     </StyledHeader>
