@@ -5,10 +5,10 @@ import ClubDescription from "../../../features/club/technical/ClubDescription";
 import Box from "@mui/material/Box";
 import Crew from "../../../features/club/common/Crew";
 import Gallery from "../../../features/club/common/Gallery";
-import BISBg from "../../../assets/technical_clubs_bg/BIS.jpg";
-import BISBgTop from "../../../assets/technical_clubs_bg/bg_BIS_top.png";
-import BISBgBottom from "../../../assets/technical_clubs_bg/bg_BIS_bottom.png";
-import BISLogo from "../../../assets/technical_clubs_bg/BIS_logo.png";
+import BISBg from "../../../../assets/technical_clubs_bg/BIS.jpg";
+import BISBgTop from "../../../../assets/technical_clubs_bg/bg_BIS_top.png";
+import BISBgBottom from "../../../../assets/technical_clubs_bg/bg_BIS_bottom.png";
+import BISLogo from "../../../../assets/technical_clubs_bg/BIS_logo.png";
 import { StaticImageData } from "next/image";
 import { bis } from "../../../data/Crews/TechnicalClubCrew";
 

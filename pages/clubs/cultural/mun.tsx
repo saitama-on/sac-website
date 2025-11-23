@@ -5,8 +5,8 @@ import ClubBanner from "../../../features/club/cultural/ClubBanner";
 import ClubDescription from "../../../features/club/cultural/ClubDescription";
 import ClubEvents from "../../../features/club/cultural/ClubEvents";
 import Gallery from "../../../features/club/common/Gallery";
-import munBg from "../../../assets/cultural_clubs_bg/mun.png";
-import munLogo from "../../../assets/cultural_clubs_bg/mun_logo.png";
+import munBg from "../../../../assets/cultural_clubs_bg/mun.png";
+import munLogo from "../../../../assets/cultural_clubs_bg/mun_logo.png";
 import Crew from "../../../features/club/common/Crew";
 import { mun } from "../../../data/Crews/CulturalClubCrew";
 

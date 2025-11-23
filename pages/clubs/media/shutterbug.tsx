@@ -5,8 +5,8 @@ import ClubBanner from "../../../features/club/cultural/ClubBanner";
 import ClubDescription from "../../../features/club/cultural/ClubDescription";
 import ClubEvents from "../../../features/club/cultural/ClubEvents";
 import Gallery from "../../../features/club/common/Gallery";
-import shutterbugBg from "../../../assets/cultural_clubs_bg/shutterbug.png";
-import shutterbugLogo from "../../../assets/cultural_clubs_bg/shutterbug_logo.jpeg";
+import shutterbugBg from "../../../../assets/cultural_clubs_bg/shutterbug.png";
+import shutterbugLogo from "../../../../assets/cultural_clubs_bg/shutterbug_logo.jpeg";
 import Crew from "../../../features/club/common/Crew";
 import { shutterbug } from "../../../data/Crews/MediaClubCrew";
 

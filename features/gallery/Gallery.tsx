@@ -10,7 +10,7 @@ import MenuItem from "@mui/material/MenuItem";
 import InputLabel from "@mui/material/InputLabel";
 import FormControl from "@mui/material/FormControl";
 import Divider from "@mui/material/Divider";
-import layerIcon from "../../assets/icon/icon_layer.svg";
+import layerIcon from "../../../assets/icon/icon_layer.svg";
 import Button from "@mui/material/Button";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
 import { ClubEvents } from "../../data/EventsAndGallery/GalleryData";

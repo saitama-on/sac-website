@@ -5,10 +5,10 @@ import ClubDescription from "../../../features/club/technical/ClubDescription";
 import Box from "@mui/material/Box";
 import Crew from "../../../features/club/common/Crew";
 import Gallery from "../../../features/club/common/Gallery";
-import cipherBg from "../../../assets/technical_clubs_bg/ciphercell.png";
-import cipherBgTop from "../../../assets/technical_clubs_bg/bg_cipher_top.svg";
-import cipherBgBottom from "../../../assets/technical_clubs_bg/bg_cipher_bottom.svg";
-import cipherLogo from "../../../assets/technical_clubs_bg/ciphercell_logo.png";
+import cipherBg from "../../../../assets/technical_clubs_bg/ciphercell.png";
+import cipherBgTop from "../../../../assets/technical_clubs_bg/bg_cipher_top.svg";
+import cipherBgBottom from "../../../../assets/technical_clubs_bg/bg_cipher_bottom.svg";
+import cipherLogo from "../../../../assets/technical_clubs_bg/ciphercell_logo.png";
 import { ciphercell } from "../../../data/Crews/TechnicalClubCrew";
 
 const Ciphercell = () => {

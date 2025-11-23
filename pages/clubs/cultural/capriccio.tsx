@@ -5,8 +5,8 @@ import ClubBanner from "../../../features/club/cultural/ClubBanner";
 import ClubDescription from "../../../features/club/cultural/ClubDescription";
 import ClubEvents from "../../../features/club/cultural/ClubEvents";
 import Gallery from "../../../features/club/common/Gallery";
-import capriccioBg from "../../../assets/cultural_clubs_bg/capriccio.png";
-import capriccioLogo from "../../../assets/cultural_clubs_bg/capriccio_logo.png";
+import capriccioBg from "../../../../assets/cultural_clubs_bg/capriccio.png";
+import capriccioLogo from "../../../../assets/cultural_clubs_bg/capriccio_logo.png";
 import Crew from "../../../features/club/common/Crew";
 import {capriccio} from "../../../data/Crews/CulturalClubCrew"
 

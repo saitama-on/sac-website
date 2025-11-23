@@ -2,9 +2,9 @@ import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
-import icon_linkedin from "../../assets/icon/icon_linkedin.svg";
-import icon_call from "../../assets/icon/icon_call.svg";
-import icon_mail from "../../assets/icon/icon_mail.svg";
+import icon_linkedin from "../../../assets/icon/icon_linkedin.svg";
+import icon_call from "../../../assets/icon/icon_call.svg";
+import icon_mail from "../../../assets/icon/icon_mail.svg";
 import { StaticImageData } from "next/image";
 
 interface Props {
@@ -20,24 +20,8 @@ const Card = ({ Name, Post, img, linkedin, call, mail }: Props) => {
   return (
     <>
       <Stack direction={"column"}>
-        <Box
-          sx={{
-            width: "262px",
-            height: "309px"
-          }}
-        >
-          <Image
-            src={img}
-            width={262}
-            height={309}
-            alt={Name}
-            objectFit="cover"
-            objectPosition={"center"}
-            style={{
-              borderRadius: "12px",
-              height: "309px"
-            }}
-          />
+        <Box sx={{ width: "262px", height: "309px", overflow: "hidden", borderRadius: "12px" }}>
+          <Image src={img} width={262} height={309} alt={Name} className="member-photo" />
         </Box>
         <Typography
           variant="body2"

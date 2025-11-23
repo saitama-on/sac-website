@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { styled } from "@mui/material";
 import ImageGrid from "./ImageGrid";
 import Image from "next/image";
-import iconArrow from "../../../assets/icon/icon_arrow.svg";
+import iconArrow from "../../../../assets/icon/icon_arrow.svg";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";

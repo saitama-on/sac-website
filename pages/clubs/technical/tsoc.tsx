@@ -5,10 +5,10 @@ import ClubDescription from "../../../features/club/technical/ClubDescription";
 import Box from "@mui/material/Box";
 import Crew from "../../../features/club/common/Crew";
 import Gallery from "../../../features/club/common/Gallery";
-import tsocBg from "../../../assets/technical_clubs_bg/tsoc.png";
-import tsocBgTop from "../../../assets/technical_clubs_bg/bg_tsoc_top.svg";
-import tsocBgBottom from "../../../assets/technical_clubs_bg/bg_tsoc_bottom.svg";
-import tsocLogo from "../../../assets/technical_clubs_bg/tsoc_logo.jpg";
+import tsocBg from "../../../../assets/technical_clubs_bg/tsoc.png";
+import tsocBgTop from "../../../../assets/technical_clubs_bg/bg_tsoc_top.svg";
+import tsocBgBottom from "../../../../assets/technical_clubs_bg/bg_tsoc_bottom.svg";
+import tsocLogo from "../../../../assets/technical_clubs_bg/tsoc_logo.jpg";
 import { tsoc } from "../../../data/Crews/TechnicalClubCrew";
 
 interface TSOCProps {}

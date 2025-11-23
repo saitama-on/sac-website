@@ -5,10 +5,10 @@ import ClubDescription from "../../../features/club/technical/ClubDescription";
 import Box from "@mui/material/Box";
 import Crew from "../../../features/club/common/Crew";
 import Gallery from "../../../features/club/common/Gallery";
-import inquizitiveBg from "../../../assets/technical_clubs_bg/inquizitive.png";
-import inquizitiveBgTop from "../../../assets/technical_clubs_bg/bg_inquizitive_top.svg";
-import inquizitiveBgBottom from "../../../assets/technical_clubs_bg/bg_inquizitive_bottom.svg";
-import inquizitiveLogo from "../../../assets/technical_clubs_bg/inquizitive_logo.jpg";
+import inquizitiveBg from "../../../../assets/technical_clubs_bg/inquizitive.png";
+import inquizitiveBgTop from "../../../../assets/technical_clubs_bg/bg_inquizitive_top.svg";
+import inquizitiveBgBottom from "../../../../assets/technical_clubs_bg/bg_inquizitive_bottom.svg";
+import inquizitiveLogo from "../../../../assets/technical_clubs_bg/inquizitive_logo.jpg";
 import { inquizitive } from "../../../data/Crews/TechnicalClubCrew";
 
 const Inquizitive = () => {

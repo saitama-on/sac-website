@@ -5,8 +5,8 @@ import ClubBanner from "../../../features/club/cultural/ClubBanner";
 import ClubDescription from "../../../features/club/cultural/ClubDescription";
 import ClubEvents from "../../../features/club/cultural/ClubEvents";
 import Gallery from "../../../features/club/common/Gallery";
-import ignitersBg from "../../../assets/cultural_clubs_bg/igniters.png";
-import ignitersLogo from "../../../assets/cultural_clubs_bg/igniters_logo.jpg";
+import ignitersBg from "../../../../assets/cultural_clubs_bg/igniters.png";
+import ignitersLogo from "../../../../assets/cultural_clubs_bg/igniters_logo.jpg";
 import Crew from "../../../features/club/common/Crew";
 import { igniters } from "../../../data/Crews/CulturalClubCrew";
 

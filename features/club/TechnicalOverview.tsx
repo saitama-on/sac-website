@@ -4,7 +4,7 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Grid2 from "@mui/material/Unstable_Grid2";
 import Link from "next/link";
-import bg from "../../assets/overview_bg/bg_techoverview.svg";
+import bg from "../../../assets/overview_bg/bg_techoverview.svg";
 
 const StyledTypography = styled(Typography)({
   fontFamily: "JetBrains Mono",

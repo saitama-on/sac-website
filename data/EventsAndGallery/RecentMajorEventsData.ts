@@ -1,12 +1,12 @@
 import { StaticImageData } from "next/image";
-import scientfic from "../../assets/major_events_poster/scientifc.png";
-import hackmanthan from "../../assets/major_events_poster/hackmanthan.jpeg";
-import technovate from "../../assets/major_events_poster/technovate.jpeg";
-import ganesh from "../../assets/major_events_poster/ganesh.jpeg";
-import Saraswati from "../../assets/major_events_poster/Saraswati Puja.png";
-import Technovate5 from "../../assets/major_events_poster/Technovate5.0.jpg";
-import scintfic24 from "../../assets/major_events_poster/scintfic24.jpg";
-import republicday from "../../assets/major_events_poster/republicday.jpg";
+import scientfic from "../../../assets/major_events_poster/scientifc.png";
+import hackmanthan from "../../../assets/major_events_poster/hackmanthan.jpeg";
+import technovate from "../../../assets/major_events_poster/technovate.jpeg";
+import ganesh from "../../../assets/major_events_poster/ganesh.jpeg";
+import Saraswati from "../../../assets/major_events_poster/Saraswati Puja.png";
+import Technovate5 from "../../../assets/major_events_poster/Technovate5.0.jpg";
+import scintfic24 from "../../../assets/major_events_poster/scintfic24.jpg";
+import republicday from "../../../assets/major_events_poster/republicday.jpg";
 
 
 interface RecentMajorEventsDataProps {

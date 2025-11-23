@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AtharvLogo from "../../../assets/sports_icons/atharv_logo.png";
+import AtharvLogo from "../../../../assets/sports_icons/atharv_logo.png";
 import UpcomingEvents from "./UpcomingEvents";
 import { earliestTwoEvents } from "./EventData";
 import Stack from "@mui/material/Stack";
@@ -73,13 +73,13 @@ const SportsHeading = () => {
             }}
           >
             <UpcomingEvents
-              icon={require("../../../assets/sports_icons/icon_knight.svg")}
+              icon={require("../../../../assets/sports_icons/icon_knight.svg")}
               date={earliestTwoEvents[0].date}
               name={earliestTwoEvents[0].eventName}
               content={earliestTwoEvents[0].desc}
             />
             <UpcomingEvents
-              icon={require("../../../assets/sports_icons/icon_knight.svg")}
+              icon={require("../../../../assets/sports_icons/icon_knight.svg")}
               date={earliestTwoEvents[1].date}
               name={earliestTwoEvents[1].eventName}
               content={earliestTwoEvents[1].desc}

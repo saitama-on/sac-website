@@ -1,10 +1,10 @@
 import { Stack, styled } from "@mui/material";
 import Image from "next/image";
 import React from "react";
-import fbIcon from "../../../assets/icon/icon_col_fb.svg";
-import twitterIcon from "../../../assets/icon/icon_col_twitter.svg";
-import instaIcon from "../../../assets/icon/icon_col_instagram.svg";
-import linkedinIcon from "../../../assets/icon/icon_col_linkedin.svg";
+import fbIcon from "../../../../assets/icon/icon_col_fb.svg";
+import twitterIcon from "../../../../assets/icon/icon_col_twitter.svg";
+import instaIcon from "../../../../assets/icon/icon_col_instagram.svg";
+import linkedinIcon from "../../../../assets/icon/icon_col_linkedin.svg";
 
 type Props = {};
 

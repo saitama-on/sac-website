@@ -5,8 +5,8 @@ import ClubBanner from "../../../features/club/cultural/ClubBanner";
 import ClubDescription from "../../../features/club/cultural/ClubDescription";
 import ClubEvents from "../../../features/club/cultural/ClubEvents";
 import Gallery from "../../../features/club/common/Gallery";
-import YTCBg from "../../../assets/cultural_clubs_bg/YTC.jpg";
-import YTCLogo from "../../../assets/cultural_clubs_bg/YTC_logo.png";
+import YTCBg from "../../../../assets/cultural_clubs_bg/YTC.jpg";
+import YTCLogo from "../../../../assets/cultural_clubs_bg/YTC_logo.png";
 import Crew from "../../../features/club/common/Crew";
 import { ytc } from "../../../data/Crews/CulturalClubCrew";
 

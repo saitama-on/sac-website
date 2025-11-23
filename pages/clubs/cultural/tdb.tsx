@@ -5,8 +5,8 @@ import ClubBanner from "../../../features/club/cultural/ClubBanner";
 import ClubDescription from "../../../features/club/cultural/ClubDescription";
 import ClubEvents from "../../../features/club/cultural/ClubEvents";
 import Gallery from "../../../features/club/common/Gallery";
-import tbdBg from "../../../assets/cultural_clubs_bg/tbd.png";
-import tbdLogo from "../../../assets/cultural_clubs_bg/tbd_logo.jpg";
+import tbdBg from "../../../../assets/cultural_clubs_bg/tbd.png";
+import tbdLogo from "../../../../assets/cultural_clubs_bg/tbd_logo.jpg";
 import Crew from "../../../features/club/common/Crew";
 import { tdb } from "../../../data/Crews/CulturalClubCrew";
 

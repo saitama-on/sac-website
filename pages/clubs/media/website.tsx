@@ -3,8 +3,8 @@ import ClubsLayout from "../../../layouts/ClubsLayout";
 import ClubHeader from "../../../features/club/media/ClubHeader";
 import ClubBanner from "../../../features/club/cultural/ClubBanner";
 import ClubDescription from "../../../features/club/cultural/ClubDescription";
-import WebsiteBg from "../../../assets/media_cell_bg/website.jpg";
-import WebsiteLogo from "../../../assets/media_cell_bg/Media.png";
+import WebsiteBg from "../../../../assets/media_cell_bg/website.jpg";
+import WebsiteLogo from "../../../../assets/media_cell_bg/Media.png";
 import Crew from "../../../features/club/common/Crew";
 import { website } from "../../../data/Crews/MediaClubCrew";
 

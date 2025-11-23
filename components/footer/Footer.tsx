@@ -1,15 +1,15 @@
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Image from "next/image";
-import sac_branding from "../../assets/sac_iiit_logo/sac_logo_alt.png";
+import sac_branding from "../../../assets/sac_iiit_logo/sac_logo_alt.png";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
-import LinkedInIcon from "../../assets/icon/icon_linkedin.svg";
-import TwitterIcon from "../../assets/icon/icon_twitter.svg";
-import FacebookIcon from "../../assets/icon/icon_facebook.svg";
-import InstagramIcon from "../../assets/icon/icon_instagram.svg";
-import logo1 from "../../assets/footer/logo1.png";
-import logo2 from "../../assets/footer/logo2.png";
+import LinkedInIcon from "../../../assets/icon/icon_linkedin.svg";
+import TwitterIcon from "../../../assets/icon/icon_twitter.svg";
+import FacebookIcon from "../../../assets/icon/icon_facebook.svg";
+import InstagramIcon from "../../../assets/icon/icon_instagram.svg";
+import logo1 from "../../../assets/footer/logo1.png";
+import logo2 from "../../../assets/footer/logo2.png";
 
 const Footer = () => {
   return (

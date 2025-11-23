@@ -1,7 +1,7 @@
 import { Stack, StackProps } from "@mui/material";
 import Image, { StaticImageData } from "next/image";
 import React from "react";
-import sacBranding from "../../assets/sac_iiit_logo/sac_branding.svg";
+import sacBranding from "../../../assets/sac_iiit_logo/sac_branding.svg";
 
 interface Props extends StackProps {
   url?: StaticImageData;
@@ -9,7 +9,12 @@ interface Props extends StackProps {
 
 const SacBranding = React.forwardRef((props: Props, ref) => {
   return (
-    <Stack component="div" ref={ref} {...props}>
+    <Stack
+      component="div"
+      ref={ref}
+      {...props}
+      sx={{ display: "flex", alignItems: "center", justifyContent: "center", ...(props.sx as any) }}
+    >
       <Image
         src={props.url ? props.url : sacBranding}
         height={props.height as number}

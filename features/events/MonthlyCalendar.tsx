@@ -2,12 +2,12 @@ import Stack from "@mui/material/Stack";
 import { ReactNode, useEffect, useState } from "react";
 import Typography from "@mui/material/Typography";
 import Image, { StaticImageData } from "next/image";
-import iconTriangle from "../../assets/calendar_icons/triangle.svg";
-import iconCross from "../../assets/calendar_icons/cross.svg";
-import iconRectangle from "../../assets/calendar_icons/rectangle.svg";
-import iconStar from "../../assets/calendar_icons/star.svg";
-import iconCircle from "../../assets/calendar_icons/circle.svg";
-import icontick from "../../assets/calendar_icons/tick.svg"
+import iconTriangle from "../../../assets/calendar_icons/triangle.svg";
+import iconCross from "../../../assets/calendar_icons/cross.svg";
+import iconRectangle from "../../../assets/calendar_icons/rectangle.svg";
+import iconStar from "../../../assets/calendar_icons/star.svg";
+import iconCircle from "../../../assets/calendar_icons/circle.svg";
+import icontick from "../../../assets/calendar_icons/tick.svg"
 import Divider from "@mui/material/Divider";
 import Grid2 from "@mui/material/Unstable_Grid2";
 import SingleDate from "../../components/EventCalendar/SingleDate";

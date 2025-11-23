@@ -4,8 +4,8 @@ import ClubHeader from "../../../features/club/media/ClubHeader";
 import ClubDescription from "../../../features/club/cultural/ClubDescription";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import DesignBg from "../../../assets/media_cell_bg/design.jpg";
-import DesignLogo from "../../../assets/media_cell_bg/Media.png";
+import DesignBg from "../../../../assets/media_cell_bg/design.jpg";
+import DesignLogo from "../../../../assets/media_cell_bg/Media.png";
 import Crew from "../../../features/club/common/Crew";
 import { design } from "../../../data/Crews/MediaClubCrew";
 

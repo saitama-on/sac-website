@@ -2,8 +2,8 @@ import Box from "@mui/material/Box";
 import Stack from "@mui/system/Stack";
 import Typography from "@mui/material/Typography";
 import Image, { StaticImageData } from "next/image";
-import iconArrow from "../../../assets/icon/icon_arrow_long.svg";
-import iconArrowR from "../../../assets/icon/icon_arrow_long_reverse.svg";
+import iconArrow from "../../../../assets/icon/icon_arrow_long.svg";
+import iconArrowR from "../../../../assets/icon/icon_arrow_long_reverse.svg";
 import Styles from "../../../styles/Clubs.module.css";
 import { useState } from "react";
 
@@ -26,19 +26,8 @@ const Crew = ({ props }: Props) => {
     return (
       <>
         <Stack direction={"column"} rowGap={"12px"}>
-          <Box
-            sx={{
-              width: "286px",
-              height: "394px",
-            }}
-          >
-            <Image
-              src={img}
-              width={286}
-              height={394}
-              alt=""
-              objectFit="cover"
-            />
+          <Box sx={{ width: "262px", height: "309px", overflow: "hidden", borderRadius: "12px" }}>
+            <Image src={img} width={262} height={309} alt={name} className="member-photo" />
           </Box>
           <Typography
             fontFamily="JetBrains Mono"
