@@ -2,8 +2,8 @@ import Box from "@mui/material/Box";
 import Stack from "@mui/system/Stack";
 import Typography from "@mui/material/Typography";
 import Image, { StaticImageData } from "next/image";
-import iconArrow from "../../../assets/icon/icon_arrow_long.svg";
-import iconArrowR from "../../../assets/icon/icon_arrow_long_reverse.svg";
+import iconArrow from "../../../../assets/icon/icon_arrow_long.svg";
+import iconArrowR from "../../../../assets/icon/icon_arrow_long_reverse.svg";
 import Styles from "../../../styles/Clubs.module.css";
 import { useState } from "react";
 

@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { Stack, Box, Typography } from "@mui/material";
-import Landingpg from "../../assets/gatepass/gatepass.svg";
-import Google from "../../assets/gatepass/google.svg";
-import lan from "../../assets/gatepass/lan.svg";
+import Landingpg from "../../../assets/gatepass/gatepass.svg";
+import Google from "../../../assets/gatepass/google.svg";
+import lan from "../../../assets/gatepass/lan.svg";
 import Link from "next/link";
 
 const LandingPage = () => {

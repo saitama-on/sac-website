@@ -4,11 +4,11 @@ import Typography from "@mui/material/Typography";
 import { ReactNode, useState } from "react";
 import Zoom from "@mui/material/Zoom";
 import Image, { StaticImageData } from "next/image";
-import artSports from "../../assets/static/art_sports.png";
-import artCultural from "../../assets/static/art_cultural.png";
-import artTechnical from "../../assets/static/art_technical.png";
-import NSS from "../../assets/static/NSS.png";
-import media from "../../assets/static/media.jpg";
+import artSports from "../../../assets/static/art_sports.png";
+import artCultural from "../../../assets/static/art_cultural.png";
+import artTechnical from "../../../assets/static/art_technical.png";
+import NSS from "../../../assets/static/NSS.png";
+import media from "../../../assets/static/media.jpg";
 
 interface Props {
   title: string;

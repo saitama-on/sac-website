@@ -10,7 +10,7 @@ import { Box, Container, Stack } from "@mui/material";
 import React, { ChangeEvent, useState } from "react";
 import InputField from "../../../components/common/InputField";
 import SocialsPanel from "./SocialsPanel";
-import artContactus from "../../../assets/static/art_contactus.svg";
+import artContactus from "../../../../assets/static/art_contactus.svg";
 import Image from "next/image";
 import Snackbar from "@mui/material/Snackbar";
 import { AlertColor } from "@mui/material";

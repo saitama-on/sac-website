@@ -1,5 +1,5 @@
 import Box from "@mui/material/Box";
-import bg from "../../assets/overview_bg/bg_culturaloverview.svg";
+import bg from "../../../assets/overview_bg/bg_culturaloverview.svg";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import { styled } from "@mui/material";

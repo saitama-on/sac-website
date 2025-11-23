@@ -5,7 +5,7 @@ import React, { useContext } from "react";
 import { BrandInViewContext } from "../../contexts/HeaderContext";
 import SacBranding from "../common/SacBranding";
 import NavRight from "./NavRight";
-import sacLogo from "../../assets/sac_iiit_logo/sac_logo.png";
+import sacLogo from "../../../assets/sac_iiit_logo/sac_logo.png";
 
 type Props = {};
 

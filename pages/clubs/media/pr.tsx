@@ -3,8 +3,8 @@ import ClubsLayout from "../../../layouts/ClubsLayout";
 import ClubHeader from "../../../features/club/media/ClubHeader";
 import ClubBanner from "../../../features/club/cultural/ClubBanner";
 import ClubDescription from "../../../features/club/cultural/ClubDescription";
-import PRBg from "../../../assets/media_cell_bg/pr.jpg";
-import PRLogo from "../../../assets/media_cell_bg/Media.png";
+import PRBg from "../../../../assets/media_cell_bg/pr.jpg";
+import PRLogo from "../../../../assets/media_cell_bg/Media.png";
 import Crew from "../../../features/club/common/Crew";
 import { pr } from  "../../../data/Crews/MediaClubCrew";
 

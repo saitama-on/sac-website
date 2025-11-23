@@ -5,10 +5,10 @@ import ClubDescription from "../../../features/club/technical/ClubDescription";
 import Box from "@mui/material/Box";
 import Crew from "../../../features/club/common/Crew";
 import Gallery from "../../../features/club/common/Gallery";
-import aimlBg from "../../../assets/technical_clubs_bg/aiml.jpeg";
-import aimlBgTop from "../../../assets/technical_clubs_bg/bg_aiml_top.svg";
-import aimlBgBottom from "../../../assets/technical_clubs_bg/bg_aiml_bottom.svg";
-import aimlLogo from "../../../assets/technical_clubs_bg/aiml_logo.svg";
+import aimlBg from "../../../../assets/technical_clubs_bg/aiml.jpeg";
+import aimlBgTop from "../../../../assets/technical_clubs_bg/bg_aiml_top.svg";
+import aimlBgBottom from "../../../../assets/technical_clubs_bg/bg_aiml_bottom.svg";
+import aimlLogo from "../../../../assets/technical_clubs_bg/aiml_logo.svg";
 import { aiml } from "../../../data/Crews/TechnicalClubCrew";
 
 const Aiml = () => {

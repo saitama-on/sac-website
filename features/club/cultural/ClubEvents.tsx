@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Image from "next/image";
-import starIcon from "../../../assets/icon/icon_star.svg";
+import starIcon from "../../../../assets/icon/icon_star.svg";
 import Stack from "@mui/material/Stack";
 import { calendarData } from "../../../data/EventsAndGallery/EventCalendarData";
 

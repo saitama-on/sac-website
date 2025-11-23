@@ -5,10 +5,10 @@ import ClubDescription from "../../../features/club/technical/ClubDescription";
 import Box from "@mui/material/Box";
 import Crew from "../../../features/club/common/Crew";
 import Gallery from "../../../features/club/common/Gallery";
-import cometBg from "../../../assets/technical_clubs_bg/comet.png";
-import cometBgTop from "../../../assets/technical_clubs_bg/bg_comet_top.svg";
-import cometBgBottom from "../../../assets/technical_clubs_bg/bg_comet_bottom.svg";
-import cometLogo from "../../../assets/technical_clubs_bg/comet_logo.png";
+import cometBg from "../../../../assets/technical_clubs_bg/comet.png";
+import cometBgTop from "../../../../assets/technical_clubs_bg/bg_comet_top.svg";
+import cometBgBottom from "../../../../assets/technical_clubs_bg/bg_comet_bottom.svg";
+import cometLogo from "../../../../assets/technical_clubs_bg/comet_logo.png";
 import { comet } from "../../../data/Crews/TechnicalClubCrew";
 
 const Comet = () => {

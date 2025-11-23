@@ -5,10 +5,10 @@ import ClubDescription from "../../../features/club/technical/ClubDescription";
 import Box from "@mui/material/Box";
 import Crew from "../../../features/club/common/Crew";
 import Gallery from "../../../features/club/common/Gallery";
-import IICBg from "../../../assets/technical_clubs_bg/IIC.jpg";
-import IICBgTop from "../../../assets/technical_clubs_bg/bg_IIC_top.png";
-import IICBgBottom from "../../../assets/technical_clubs_bg/bg_IIC_bottom.png";
-import IICLogo from "../../../assets/technical_clubs_bg/IIC_logo.png";
+import IICBg from "../../../../assets/technical_clubs_bg/IIC.jpg";
+import IICBgTop from "../../../../assets/technical_clubs_bg/bg_IIC_top.png";
+import IICBgBottom from "../../../../assets/technical_clubs_bg/bg_IIC_bottom.png";
+import IICLogo from "../../../../assets/technical_clubs_bg/IIC_logo.png";
 import { StaticImageData } from "next/image";
 
 interface IICProps {}

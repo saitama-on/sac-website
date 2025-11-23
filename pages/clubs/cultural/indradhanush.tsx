@@ -5,8 +5,8 @@ import ClubBanner from "../../../features/club/cultural/ClubBanner";
 import ClubDescription from "../../../features/club/cultural/ClubDescription";
 import ClubEvents from "../../../features/club/cultural/ClubEvents";
 import Gallery from "../../../features/club/common/Gallery";
-import indradhanushBg from "../../../assets/cultural_clubs_bg/indradhanush.png";
-import indradhanushLogo from "../../../assets/cultural_clubs_bg/indradhanush_logo.png";
+import indradhanushBg from "../../../../assets/cultural_clubs_bg/indradhanush.png";
+import indradhanushLogo from "../../../../assets/cultural_clubs_bg/indradhanush_logo.png";
 import Crew from "../../../features/club/common/Crew";
 import { indradhanush } from "../../../data/Crews/CulturalClubCrew";
 

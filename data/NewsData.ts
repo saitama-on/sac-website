@@ -1,25 +1,25 @@
 import { StaticImageData } from "next/image";
 
 // import from news_pics for images of news
-import chai from "../assets/club_event_pics/cultural/chai6.jpeg";
-import scientfic from "../assets/major_events_pics/scientfic.jpeg";
-import blood from "../assets/news_pics/news_blood.jpeg";
-import yet from "../assets/club_event_pics/cultural/yet2.jpeg";
-import consti from "../assets/news_pics/news_const.jpeg";
-import hackmanthan from "../assets/news_pics/news_hack.jpeg";
-import chess from "../assets/club_event_pics/sports/lakshya1.jpeg";
-import aditya from "../assets/team_24-25/aditya_1.jpg";
-import yash from "../assets/team_24-25/yash_1.jpg";
-import nano_img from "../assets/major_events_pics/nano_tech.jpg";
-import vansh from "../assets/team_24-25/vansh_11.jpg";
-import priyadarshi from "../assets/team_24-25/priyadarshi.jpg";
-import technovate_24 from "../assets/major_events_pics/technovate.jpeg";
-import saraswati_puja from "../assets/major_events_pics/Saraswati_3.jpg";
-import youth from "../assets/major_events_pics/youthday.png";
-import hindi from "../assets/major_events_pics/Hindi.png";
-import sci from "../assets/major_events_pics/ScinTfic_3.jpg";
-import republic_day from "../assets/major_events_pics/26_Jan2.jpg";
-import aids_awareness from "../assets/major_events_pics/aids_awareness.png";
+import chai from "../../assets/club_event_pics/cultural/chai6.jpeg";
+import scientfic from "../../assets/major_events_pics/scientfic.jpeg";
+import blood from "../../assets/news_pics/news_blood.jpeg";
+import yet from "../../assets/club_event_pics/cultural/yet2.jpeg";
+import consti from "../../assets/news_pics/news_const.jpeg";
+import hackmanthan from "../../assets/news_pics/news_hack.jpeg";
+import chess from "../../assets/club_event_pics/sports/lakshya1.jpeg";
+import aditya from "../../assets/team_24-25/aditya_1.jpg";
+import yash from "../../assets/team_24-25/yash_1.jpg";
+import nano_img from "../../assets/major_events_pics/nano_tech.jpg";
+import vansh from "../../assets/team_24-25/vansh_11.jpg";
+import priyadarshi from "../../assets/team_24-25/priyadarshi.jpg";
+import technovate_24 from "../../assets/major_events_pics/technovate.jpeg";
+import saraswati_puja from "../../assets/major_events_pics/Saraswati_3.jpg";
+import youth from "../../assets/major_events_pics/youthday.png";
+import hindi from "../../assets/major_events_pics/Hindi.png";
+import sci from "../../assets/major_events_pics/ScinTfic_3.jpg";
+import republic_day from "../../assets/major_events_pics/26_Jan2.jpg";
+import aids_awareness from "../../assets/major_events_pics/aids_awareness.png";
 
 
 interface NewsDataProps {

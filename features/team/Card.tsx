@@ -2,9 +2,9 @@ import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
-import icon_linkedin from "../../assets/icon/icon_linkedin.svg";
-import icon_call from "../../assets/icon/icon_call.svg";
-import icon_mail from "../../assets/icon/icon_mail.svg";
+import icon_linkedin from "../../../assets/icon/icon_linkedin.svg";
+import icon_call from "../../../assets/icon/icon_call.svg";
+import icon_mail from "../../../assets/icon/icon_mail.svg";
 import { StaticImageData } from "next/image";
 
 interface Props {
